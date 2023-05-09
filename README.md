@@ -1,2 +1,3 @@
 # AoT-JSON
-Talking about Health collection metadata (accessed 30 April 2023)
+This repository contains a single file, 4028.json, containing metadata from the UK Web Archive's "Talking about Health" collection, as accessed on 30 April 2023. This JSON file contains both collection- and target-level information on the Talking about Health collection and its subcollections; this collection can be explored on the UKWA site at https://www.webarchive.org.uk/en/ukwa/collection/4028. 
+Individual target information is duplicated where websites exist in multiple collections. Additional information on the provenance and intended uses of this dataset can be found in the Archive of Tomorrow project's Datasheet for Datasets.
