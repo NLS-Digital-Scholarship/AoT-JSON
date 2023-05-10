@@ -157,68 +157,129 @@ If consent was obtained, were the consenting individuals provided with a mechani
 All content is subject to the UKWA’s [Notice and Takedown policy](https://www.webarchive.org.uk/en/ukwa/info/notice_takedown/) and objections may lead to content being removed or disabled from public access. Takedown action is at the discretion of the UK Web Archive. It is likely that if a consenting individual later wished to revoke or alter the specific permissions a resource was made available under, this would be possible through liaison with the UKWA, although not guaranteed.
 
 Has an analysis of the potential impact of the dataset and its use on data subjects (for example, a data protection impact analysis) been conducted?
+
 Yes, a data protection impact assessment was conducted prior to the project start. 
+
 Any other comments?
+
 No.
-Preprocessing/cleaning/labelling
+
+**Preprocessing/cleaning/labelling**
+
 Was any preprocessing/cleaning/labelling of the data done (for example, discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)?
+
 No preprocessing has taken place on the JSON target metadata dataset; the dataset is an unmodified export of the data produced and maintained in ACT (where web targets are subject to basic quality assurance work - name standardisation, ensuring compliance with baseline descriptive standards, etc). During the development of the API process used to generate these exports, some work was done to prevent the inclusion of blank, ‘null’ objects appearing in the JSON file for each collection; no additional exclusions were made. Additional contextual information about the collection has been added to the spreadsheet representation of the collection, 4028.xlsx, primarily to provide a list of collection titles generally indicated by numerical URIs in the metadata.
+
 The large collection of crawl metadata logs also made available were cleaned to remove IP addresses throughout.
+
 Was the “raw” data saved in addition to the preprocessed/cleaned/labeled data (for example, to support unanticipated future uses)?
+
 This dataset represents the full metadata output the project has access to; while it might be possible to extract additional or more granular metadata on these resources from the systems involved, this was not possible during the project. Unredacted crawl metadata could be recovered in a situation where this was deemed valuable.
+
 Is the software that was used to preprocess/clean/label the data available?
+
 No.
+
 Any other comments?
+
 No.
-Uses
+
+**Uses**
+
 Has the dataset been used for any tasks already?
-Research fellows affiliated with Cambridge University Libraries and Cambridge Digital Humanities have begun experimenting with the dataset in different contexts: one example include Andrea Kocsis's analysis of the availability of trustworthy health information online, detailed here. A series of draft workbooks researchers might use or further develop to provide ways of working with the dataset are also available; the development of these or comparable workbooks should support the use of the dataset.
+
+Research fellows affiliated with Cambridge University Libraries and Cambridge Digital Humanities have begun experimenting with the dataset in different contexts: one example include Andrea Kocsis's analysis of the availability of trustworthy health information online, detailed [here](https://andreakocsis.notion.site/AoT-Topic-Modelling-results-a1d4163df3a64293bf43584cf29447df). [A series of draft workbooks](https://github.com/LeontienT/ArchiveofTomorrowMetadataNotebooks) researchers might use or further develop to provide ways of working with the dataset are also available; the development of these or comparable workbooks should support the use of the dataset.
+
 Is there a repository that links to any or all papers or systems that use the dataset?
+
 If researchers use the material, they may publish the datasets alongside their findings.
+
 What (other) tasks could the dataset be used for?
+
 The dataset reflects a project with a subject focus on health information online, and as such could be a valuable source for research on general and specific health concerns as well as web archives more generally. Collection and subject indicators can be used to narrow the dataset to expose certain topical areas, and in this context the dataset is expressive of the range of topics captured in the UKWA more generally.
+
 Is there anything about the composition of the dataset or the way it was collected and preprocessed/ cleaned/labeled that might impact future uses?
+
 It is difficult to anticipate the changes that might affect future users, but among the factors that could impact researchers are:
+
 ●	Changes to, or transition away from, the ACT platform used to capture and catalogue the resources described by the dataset. The introduction of a new platform might, for example, require redirection if links or URIs in the current dataset are followed.
 ●	Changes to, or modernisation of, Non-Print Legal Deposit law or its interpretation, which might, for example, alter whether the dataset’s references to a website’s ‘open access’ status are current.
 ●	Individual takedown requests or changes to the licensing terms imposed on individual targets. These requests might prompt NLS to provide more recent versions of the dataset reflecting appropriate inclusions/exclusions/changes.
+
 Are there tasks for which the dataset should not be used?
+
 To use this dataset there should be an understanding of how web archives are created, therefore it may be difficult to do extensive research in change over time, as most of these targets are from 2022-2023. 
+
 The dataset’s intrinsic focus on health information, which at times will inevitably be sensitive and personal, means that any tasks focusing on the contents of the websites described should be assessed in accordance with relevant guidelines on ethical research.
+
 Any other comments?
+
 No.
-Distribution
+
+**Distribution**
+
 Will the dataset be distributed to third parties outside of the entity (for example, company, institution, organization) on behalf of which the dataset was created?
+
 There are limited circumstances in which the dataset will be actively distributed - one example would be the recent effort to encourage project Fellows to experiment with the data. It is expected the project will generally be available to interested parties through appropriate institutional data repositories detailed below.
+
 How will the dataset be distributed (for example, tarball on website, API, GitHub)?
+
 Datasets will be hosted at data.nls.uk.
+
 When will the dataset be distributed?
+
 It is expected a static copy of the data will be available via the channels above by May 2023.
+
 Will the dataset be distributed under a copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?
+
 http://data.webarchive.org.uk/opendata/
+
 https://creativecommons.org/licenses/by/4.0/
+
 Have any third parties imposed IP-based or other restrictions on the data associated with the instances?
+
 No; the most likely source of restrictions or alterations to the data would be individual changes mandated by relevant sections of GDPR, for example the redaction of object metadata surfacing Special Category Data.
+
 Do any export controls or other regulatory restrictions apply to the dataset or to individual instances?
+
 The contents of the collection is variously subject to Non-Print Legal Deposit regulations; General Data Protection Legislation; individual terms of licence agreed with contributors; and general copyright law.
+
 Any other comments?
+
 No.
-Maintenance
+
+**Maintenance**
+
 Who will be supporting/hosting/maintaining the dataset?
+
 UKWA will be looking after the material, with the digital preservation and technical aspects being handled by the British Library. After March 2023, it will no longer be developed as it was during the AoT project. NLS will commit three days of work per year; this may be working directly with the collection, or interacting with designated contacts to encourage addition of new targets via the shared spreadsheet. Updates to the collection would then be relatively low in cost to partners, and require minimal work to retag new selections at NLS.
+
 How can the owner/curator/ manager of the dataset be contacted (for example, email address)?
+
 Contact may be made via the project Discourse page, which will be maintained in future by UKWA partners. Otherwise the Web Archivist at NLS would be a long term contact.
+
 Is there an erratum?
+
 At the project level, Archive of Tomorrow maintained an issues log. At the level of the UK Web Archive service, issues and fixes are logged on its Github account: https://github.com/ukwa. Data sets will be published at: data.nls.uk; known issues in the set would be included with descriptive metadata for the dataset, alongside version information, e.g. https://data.nls.uk/data/metadata-collections/national-bibliography-of-scotland/ or http://data.webarchive.org.uk/opendata/ukwa.ds.2/.
+
 Will the dataset be updated (for example, to correct labeling errors, add new instances, delete instances)?
+
 Amendments may be made where it is necessary to update or remove instances from the dataset.
+
 New versions may be published alongside the old, as the collection is updated. Labeling errors would likely be preserved in older versions, for reference; however, it may be considered part of a GDPR query and replaced, in that case.
+
 If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances (for example, were the individuals in question told that their data would be retained for a fixed period of time and then deleted)?
+
 N/A.
+
 Will older versions of the dataset continue to be supported/hosted/ maintained?
+
 It is unlikely that superseded versions of the dataset would be made available.
+
 If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?
+
 Targets can be added to the collection through the ACT tool with an account, or via the Archive of Tomorrow shared sheet, with agreement and depending on staff resource at the British Library.
 
 Any other comments?
+
 No.
